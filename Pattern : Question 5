@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* Pattern like this
+     n=4
+     1
+     2 2
+     3 3 3
+     4 4 4 4
+*/
+int main() {
+    //here row is n and column is 1 to n
+    int n;
+    //cout<<"enter the value of row : ";
+    cin>>n;
+    int i=1,j;
+    while(i<=n){
+        j=1;
+        while(j<=i){
+            cout<<i<<" ";
+            j++;
+        }i++;
+        cout<<endl;
+    }
+
+}
+//another way
+#include <bits/stdc++.h>
+using namespace std;
+/* Pattern like this
+     n=4
+     1
+     2 2
+     3 3 3
+     4 4 4 4
+*/
+int main() {
+    //here row is n and column is 1 to n
+    int n;
+    //cout<<"enter the value of row : ";
+    cin>>n;
+    
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+
+}
