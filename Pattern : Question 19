@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* Pattern like this
+     n=4
+     * * * *  4 star and 0 space
+      * * *
+       * *
+        *
+*/
+int main() {
+    //here row is n and column is 1 to n
+    int n;
+    //cout<<"enter the value of row : ";
+    cin>>n;
+    char ch;
+    for(int i=n;i>=1;i--){
+        for(int j=n-i;j>0;j--){
+            cout<<" ";
+        }
+        for(int k=i;k>=1;k--){
+            cout<<'*'<<" ";
+        }
+        cout<<endl;    
+    }  
+}
