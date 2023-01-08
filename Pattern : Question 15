@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 /* Pattern like this
-     n=3
+     n=4
      A 
-     B B
-     C C C 
+     B C 
+     D E F 
+     G H I J 
 */
 int main() {
     //here row is n and column is 1 to n
