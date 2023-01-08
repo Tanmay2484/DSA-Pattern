@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* Pattern like this
+     n=4
+     * * * *
+     * * *
+     * *
+     *
+*/
+int main() {
+    //here row is n and column is 1 to n
+    int n;
+    //cout<<"enter the value of row : ";
+    cin>>n;
+    char ch;
+    for(int i=1;i<=n;i++){
+        for(int j=n-i;j>=0;j--)
+            cout<<"*"<<" ";
+        cout<<endl;    
+    }  
+}
