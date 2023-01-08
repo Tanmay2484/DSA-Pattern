@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* Pattern like this
+     n=3
+     A A A
+     B B B
+     C C C
+*/
+int main() {
+    //here row is n and column is 1 to n
+    int n;
+    //cout<<"enter the value of row : ";
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            char ch='A'+i-1;
+            cout<<ch<<" ";
+        }
+        cout<<endl;    
+    }
+    
+}
